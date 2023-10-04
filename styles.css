@@ -73,3 +73,25 @@ ul#taskList li:hover {
     background-color: #e0e0e0; /* Slightly darker gray on hover */
     cursor: pointer;
 }
+/* Style the "Remove" button */
+/* Style the "Remove" button */
+.remove-button {
+    background-color: #e74c3c; /* Red button */
+    color: #fff; /* White text */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+    float: right; /* Float the button to the right */
+}
+
+/* Change button color on hover */
+.remove-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+/* Change button color on hover */
+.remove-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
