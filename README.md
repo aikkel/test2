@@ -5,5 +5,8 @@ click add task
 task now added
 
 future improvement: a remove feature.
+04.10 remove feature implementet
+also added stylesheet for nice looking buttons
+and colors
 
 team - Sofia & Mikkel G.
