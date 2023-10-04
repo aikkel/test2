@@ -2,7 +2,7 @@
 const taskInput = document.getElementById('task');
 const addTaskButton = document.getElementById('addTask');
 const taskList = document.getElementById('taskList');
-
+const removeTaskButton = document.getElementById('removeTask')
 // Event listener for adding tasks
 addTaskButton.addEventListener('click', () => {
     const taskText = taskInput.value.trim();
