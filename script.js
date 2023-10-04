@@ -27,12 +27,13 @@ function createTaskItem(text) {
 // Event listener for adding tasks
 addTaskButton.addEventListener('click', () => {
     const taskText = taskInput.value.trim();
-    if (taskText !== '') {
+    if (taskText !=='') {
         const taskItem = createTaskItem(taskText);
         taskList.appendChild(taskItem);
-        taskInput.value = ''; // Clear the input field
+        taskInput.value=''; // Clear the input field
     }
 });
+
 
 // Event listener for removing tasks (using event delegation)
 taskList.addEventListener('click', (e) => {
